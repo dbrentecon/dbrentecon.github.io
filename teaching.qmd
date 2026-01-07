@@ -1,0 +1,73 @@
+---
+title: "Teaching"
+---
+
+## Teaching Philosophy
+
+My teaching emphasizes rigorous causal reasoning applied to real-world policy questions. Across graduate and undergraduate courses, I focus on helping students develop intuition for identification, connect theory to data, and implement modern empirical methods using reproducible workflows in R.
+
+------------------------------------------------------------------------
+
+## Graduate Courses
+
+### Causal Inference and Applied Econometrics (PhD)
+
+**EEFE 530 — Penn State University**
+
+This course provides doctoral students with a rigorous introduction to causal inference for applied research. Topics include potential outcomes, identification, randomized and quasi-experimental designs, difference-in-differences, instrumental variables, regression discontinuity, panel methods, and threats to validity. The course emphasizes implementation in R and reproducible research using GitHub.
+
+<!-- -   Course materials:\ -->
+<!--     <https://github.com/your-username/eefe-530>\ -->
+<!--     *(replace with your actual repo URL)* -->
+
+-   Methods and tools:
+
+    -   R, Quarto, GitHub
+    -   Administrative and experimental data
+    -   Replication-oriented workflows
+
+------------------------------------------------------------------------
+
+## Undergraduate Courses
+
+### Personal Financial Decision-Making
+
+An applied course covering budgeting, credit, student loans, investing, insurance, and retirement planning. Emphasis is placed on evidence-based decision-making and long-term financial wellbeing.
+
+### Environmental Economics and Policy
+
+Introduction to the economic analysis of environmental and natural resource issues, including externalities, public goods, climate change, and environmental regulation.
+
+### Economic Analysis of Environmental and Resource Policies
+
+Applied course focused on benefit–cost analysis, policy evaluation, and empirical evidence in environmental and resource economics.
+
+------------------------------------------------------------------------
+
+## Previous Teaching Experience
+
+### Louisiana State University
+
+-   Environmental Economics\
+-   Intermediate Microeconomic Theory\
+-   Principles of Microeconomics
+
+### University of Washington
+
+-   Intermediate Microeconomics\
+-   Introductory Microeconomics
+
+------------------------------------------------------------------------
+
+## Teaching Materials
+
+I make course materials publicly available when possible, including lecture slides, assignments, and replication code. Materials are typically hosted on GitHub to support transparency, version control, and reproducibility.
+
+-   EEFE 530 (Causal Inference): GitHub-hosted lecture notes and assignments\
+-   Selected lecture slides and examples available upon request
+
+------------------------------------------------------------------------
+
+## Advising
+
+I advise PhD and MS students on applied research in environmental economics, water resources, and causal inference. I am especially interested in projects that combine field experiments, administrative data, and policy evaluation.

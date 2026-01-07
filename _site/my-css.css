@@ -1,0 +1,75 @@
+/* =========================================================
+   Abstract dropdown styling (Quarto)
+   Usage (inline HTML in .qmd/.md):
+     <details class="wp-abstract">
+     <summary>Abstract</summary>
+     ...abstract text...
+     </details>
+   ========================================================= */
+
+/* Tight placement directly under titles */
+h2 + details.wp-abstract,
+h3 + details.wp-abstract,
+h4 + details.wp-abstract {
+  margin-top: 0.15rem;
+}
+
+/* Abstract disclosure container */
+details.wp-abstract {
+  margin: 0.15rem 0 0.85rem 0;
+}
+
+/* Summary row: subtle "chip" that reads as expandable */
+details.wp-abstract summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  font-weight: 500;
+  color: inherit;
+
+  cursor: pointer;
+  user-select: none;
+
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: transparent;
+
+  /* Avoid default list spacing in some browsers */
+  list-style: none;
+}
+
+/* Expand/collapse chevron */
+details.wp-abstract summary::before {
+  content: "▸";
+  font-size: 0.95em;
+  line-height: 1;
+  transform: translateY(-0.02em);
+}
+
+details.wp-abstract[open] summary::before {
+  content: "▾";
+}
+
+/* Hover/focus: noticeable but not loud */
+details.wp-abstract summary:hover,
+details.wp-abstract summary:focus-visible {
+  border-color: rgba(0, 0, 0, 0.35);
+  outline: none;
+}
+
+/* Body spacing */
+details.wp-abstract > :not(summary) {
+  margin-top: 0.45rem;
+}
+
+/* Tight paragraphs inside the abstract */
+details.wp-abstract p {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+details.wp-abstract p:last-child {
+  margin-bottom: 0;
+}

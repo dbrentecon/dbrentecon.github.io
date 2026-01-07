@@ -1,0 +1,264 @@
+---
+title: "Curriculum Vitae"
+
+format:
+  html:
+    toc: false
+  pdf:
+    # Suppress Quarto/Pandoc's default title block in the PDF
+    title: ""
+    documentclass: article
+    geometry: margin=1in
+    fontsize: 11pt
+    pdf-engine: xelatex
+
+    # Keep hyperlinks unobtrusive
+    colorlinks: true
+    linkcolor: black
+    urlcolor: black
+
+    # Minimal, MiKTeX-friendly header styling (avoid extra packages)
+    include-in-header:
+      text: |
+        \usepackage{fontspec}
+        \setmainfont{Segoe UI}
+        \setsansfont{Segoe UI}
+    
+        \usepackage{setspace}
+        \setstretch{1.04}
+        \setlength{\parindent}{0pt}
+        \setlength{\parskip}{0.15em}
+    
+        \usepackage[hidelinks]{hyperref}
+        
+        % ---- Section heading emphasis (NO extra packages) ----
+        \makeatletter
+        \renewcommand\section{
+          \@startsection{section}{1}{0pt}
+          {1.0ex plus 0.2ex}
+          {0.6ex}
+          {\sffamily\bfseries\Large}
+        }
+        \renewcommand\subsection{
+          \@startsection{subsection}{2}{0pt}
+          {0.8ex}
+          {0.3ex}
+          {\sffamily\bfseries\large}
+        }
+        \makeatother
+
+        \IfFileExists{xurl.sty}{\usepackage{xurl}}{}
+        \urlstyle{same}
+    
+        \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+
+        % Compact lists (only if available)
+        \IfFileExists{enumitem.sty}{
+          \usepackage{enumitem}
+          \setlist[itemize]{noitemsep, topsep=2pt, leftmargin=*}
+          \setlist[enumerate]{noitemsep, topsep=2pt, leftmargin=*}
+        }{}
+
+        % Modern section styling with rules (only if available)
+        \IfFileExists{titlesec.sty}{
+          \usepackage{titlesec}
+          \titleformat{\section}{\sffamily\bfseries\Large}{}{0pt}{}[\titlerule]
+          \titlespacing*{\section}{0pt}{1.1ex}{0.6ex}
+          \titleformat{\subsection}{\sffamily\bfseries\large}{}{0pt}{}
+          \titlespacing*{\subsection}{0pt}{0.8ex}{0.3ex}
+        }{}
+
+    include-before-body:
+      text: |
+        {\sffamily\LARGE \textbf{Daniel A. Brent}}\par
+        \vspace{0.25em}
+        Associate Professor\par
+        Department of Agricultural Economics, Sociology, and Education\par
+        The Pennsylvania State University\par
+        \vspace{0.35em}
+        University Park, PA 16802\par
+        \href{mailto:dab320@psu.edu}{dab320@psu.edu}\par
+        \href{https://www.danielbrent.com}{www.danielbrent.com}\par
+        \vspace{0.8em}
+---
+
+::: {.content-visible when-format="html"}
+<p>
+  <a href="assets/cv/DanielBrentCV.pdf"
+     style="display:inline-block;
+            padding:6px 12px;
+            border:1px solid #ccc;
+            border-radius:4px;
+            text-decoration:none;">
+    Download CV (PDF)
+  </a>
+</p>
+
+## Daniel A. Brent
+
+Associate Professor\
+Department of Agricultural Economics, Sociology, and Education\
+The Pennsylvania State University
+
+University Park, PA 16802\
+Email: dab320\@psu.edu\
+Website: <https://www.danielbrent.com>
+:::
+
+## Academic Employment
+
+**Pennsylvania State University**\
+Department of Agricultural Economics, Sociology, and Education\
+- Associate Professor, 2023–present\
+- Assistant Professor, 2018–2023
+
+**Louisiana State University**\
+Department of Economics\
+- Assistant Professor, 2015–2018
+
+**Monash University**\
+Department of Economics\
+- Research Fellow, 2013–2015
+
+## Education
+
+-   **Ph.D. in Economics**, University of Washington, 2013
+-   **M.S. in Economics**, University of Washington, 2010
+-   **B.S. in Economics and Political Science**, University of Pittsburgh, 2006
+
+## Research Interests
+
+Environmental economics; Water resource economics; Applied econometrics; Causal inference; Financial literacy
+
+## Publications
+
+{{< include publications.qmd >}}
+
+## Working Papers
+
+-   **Peer effects in voluntary environmental programs: An application to urban water quality**\
+    (with Gabe Lara; Douglas Wrenn; Joe Cook) — *Revise & Resubmit, Journal of the Association of Environmental and Resource Economists*
+
+-   **Do behavioral nudges interact with prevailing economic incentives? Pairing experimental and quasi-experimental evidence from water consumption**\
+    (with Casey Wichman) — *Under review*
+
+-   **Financial literacy, student debt, and academic achievement**\
+    (with Douglas Wrenn) — *Under review*
+
+-   **Conservation and distributional consequences of pricing scarce water during droughts**\
+    (with Casey Wichman; Derek Wietelman) — *Under review*
+
+-   **Behavioral responses to two-part tariffs: Evidence from the introduction of volumetric water pricing**\
+    (with Praharsh Patel; Casey Wichman) — *In preparation*
+
+-   **Vulnerabilities to salinity risks from climate change and development in the Delaware River Basin**\
+    (with Gabriel Lara; Allison Lassiter; Hui Tan) — *In preparation*
+
+-   **Consumer value of information and the behavioral response to carbon and calorie food labels**\
+    (with Amit Sharma) — *In preparation*
+
+-   **Estimating water demand at the intensive and extensive margin**\
+    — *In preparation*
+
+## Work in Progress
+
+-   Flood risk perceptions, information, and the demand for adaptation\
+    (with Ishani Palandurkar)
+
+-   Experimental evidence on the voluntary adoption and demand response to time-varying electricity rates\
+    (with Andrea La Nauze; Nathan Eisner; Casey Wichman)
+
+-   Valuing clean water from abandoned mine reclamation\
+    (with Ishani Palandurkar)
+
+## Reports & Other Publications
+
+-   Cook, J. H., & Brent, D. A. (2021).\
+    *Do households respond to marginal or average price of piped water services?*\
+    Oxford Research Encyclopedia of Global Public Health.
+
+-   Brent, D. A. (2015).\
+    Review of *Living with Water Scarcity* by David Zetland.\
+    *Water Economics and Policy*, 01, 158003.
+
+-   Brent, D. A., Leibbrandt, A., & Smith, L. (2014).\
+    *Economic incentives for managing peak electricity demand: Review, options, and context analysis.*\
+    Melbourne, Australia, pp. 1–38.
+
+-   Yoder, J., Adam, J., Brady, M., Cook, J., Katz, S., Brent, D., Johnston, S., Malek, K., McMilan, J., & Yang, Q. (2014).\
+    *Benefit–cost analysis of the Yakima Basin Integrated Plan projects.*\
+    State of Washington Water Research Center.
+
+## Teaching Experience
+
+**Pennsylvania State University** - Applied Microeconometrics II (PhD) - Personal Financial Decision-Making - Economic Analysis of Environmental and Resource Policies - Environmental Economics and Policy - Economic Principles of Agribusiness Management
+
+**Louisiana State University** - Environmental Economics - Intermediate Microeconomic Theory - Principles of Microeconomics
+
+**University of Washington** - Intermediate Microeconomics - Introductory Microeconomics
+
+
+## Advising
+
+### Advisor
+
+-   Ishani Palandurkar — EEFE PhD, Penn State (Expected 2027)
+-   Praharsh Patel — EEFE PhD, Penn State (Expected 2025)
+-   Gabriel Lara — EEFE PhD, Penn State (Co-advisor; Expected 2025)
+-   Yongwang Wang — EEFE PhD, Penn State (2024)
+-   Rashmit Arora — EEFE MS, Penn State (Co-advisor; 2018)
+
+### Committee Member
+
+-   Xue Xiao Wang — Real Estate PhD, Penn State (2023)
+-   Arun Regmi — Forest Resources PhD, Penn State (2023)
+-   Jinglin Feng — EEFE PhD, Penn State (2023)
+-   Asif Rasool — EEFE PhD, Penn State (2023)
+-   Rui Wang — Landscape Architecture PhD, Penn State (2023)
+-   Darrah Peklak — EEFE MS, Penn State (2019)
+-   Xiagou Li — EEFE PhD, Penn State (2018)
+-   Jhacova Williams — Economics PhD, Louisiana State University (2018)
+
+
+## Grants and Awards
+
+-   **NSF** — CLIMA: Climate-resilient infrastructure adaptations for maladaptive levee networks (Co-PI), \$757,974, 2023–2026
+-   **USDA NIFA** — Evaluating and Improving the Integrity of Riparian Buffers for Achieving Water Quality Benefits (Co-PI), \$750,000, 2023–2026
+-   **USDA NIFA** — Developing Evidence-Based Guidelines for Sustainable Diet Offerings (Co-PI), \$299,887, 2023–2025
+-   **PA Sea Grant (NOAA)** — Vulnerabilities to salinity risks in the Delaware River Basin (PI), \$124,934, 2022–2024
+-   **PA Sea Grant (NOAA)** — Ecosystem services assessment for green stormwater infrastructure (Co-PI), \$120,000, 2022–2024
+-   **Penn State IEE Seed Grant** — Solar irrigation adoption in India (PI), \$29,479, 2021
+-   **Bruce Gardner Memorial Prize for Applied Policy Analysis**
+-   **Washington State University CAHNRS Team Interdisciplinary Award**
+
+## Professional Associations
+
+-   American Economic Association
+-   Association of Environmental and Resource Economists
+-   Agricultural and Applied Economics Association
+-   Urban Economics Association
+
+## Referee Service
+
+Agricultural Economics; American Economic Journal: Economic Policy; American Journal of Agricultural Economics; 
+Ecological Economics; Economic Inquiry; Environmental and Resource Economics; Energy Economics; Environmental Resource Letters; Journal of Economic Behavioral and Organization;
+Journal of the Association of Environmental and Resource Economists; Journal of the European Economics Association;
+Journal of Environmental Economics and Management; Journal of political Economy: Microeconomics; Journal of Public Economics; Journal of Regional Science;
+Management Science; Marine Resource Economics; Nature Water; Proceedings of the National Academy of Science;
+Resource and Energy Economics; Quarterly Journal of Economics; Water Resources Research; Weather, Climate, and Society; and others.
+
+------------------------------------------------------------------------
+
+## Professional Experience
+
+**Private Consulting**
+
+-   Shield (2022): Benefit–cost analysis of digital siren and bullhorn
+-   Yakima Basin Integrated Plan (2014): Agricultural sector benefits
+-   SP AusNet & BehaviourWorks Australia (2014): Peak electricity demand incentives
+-   City of Phoenix Water Services Department (2013): Satellite-based classification for residential water demand
+
+**Research Appointments** 
+- Research Associate, Sergey Rabotyagov, University of Washington SEFS (2011–2013)
+- Research Assistant, Hendrik Wolff, University of Washington Economics (2011)
+- Survey Statistician, U.S. Department of Energy (2007–2008)
