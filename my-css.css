@@ -73,3 +73,11 @@ details.wp-abstract p {
 details.wp-abstract p:last-child {
   margin-bottom: 0;
 }
+
+/* Increase banner height */
+.quarto-title-block .quarto-title-banner {
+  min-height: 380px;
+  background-size: cover;
+  background-position: center 50%;
+}
+
